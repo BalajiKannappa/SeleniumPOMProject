@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="7" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46982" started-at="2021-02-14T12:14:32Z" finished-at="2021-02-14T12:15:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="46982" started-at="2021-02-14T12:14:32Z" finished-at="2021-02-14T12:15:19Z">
+      <class name="com.qa.automationPractice.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.automationPractice.tests.LoginPageTest@6eebc39e]" name="setUp" is-config="true" duration-ms="15750" started-at="2021-02-14T12:14:32Z" finished-at="2021-02-14T12:14:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyInvalidLogin(java.lang.String, java.lang.String)[pri:3, instance:com.qa.automationPractice.tests.LoginPageTest@6eebc39e]" name="verifyInvalidLogin" duration-ms="7002" started-at="2021-02-14T12:14:48Z" data-provider="invalidTestData" finished-at="2021-02-14T12:14:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method status="PASS" signature="verifyInvalidLogin(java.lang.String, java.lang.String)[pri:3, instance:com.qa.automationPractice.tests.LoginPageTest@6eebc39e]" name="verifyInvalidLogin" duration-ms="8059" started-at="2021-02-14T12:14:55Z" data-provider="invalidTestData" finished-at="2021-02-14T12:15:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method status="PASS" signature="verifyInvalidLogin(java.lang.String, java.lang.String)[pri:3, instance:com.qa.automationPractice.tests.LoginPageTest@6eebc39e]" name="verifyInvalidLogin" duration-ms="7060" started-at="2021-02-14T12:15:03Z" data-provider="invalidTestData" finished-at="2021-02-14T12:15:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method status="PASS" signature="verifyInvalidLogin(java.lang.String, java.lang.String)[pri:3, instance:com.qa.automationPractice.tests.LoginPageTest@6eebc39e]" name="verifyInvalidLogin" duration-ms="7986" started-at="2021-02-14T12:15:10Z" data-provider="invalidTestData" finished-at="2021-02-14T12:15:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1234@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jjiko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method status="PASS" signature="testDown()[pri:0, instance:com.qa.automationPractice.tests.LoginPageTest@6eebc39e]" name="testDown" is-config="true" duration-ms="1093" started-at="2021-02-14T12:15:18Z" finished-at="2021-02-14T12:15:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDown -->
+      </class> <!-- com.qa.automationPractice.tests.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

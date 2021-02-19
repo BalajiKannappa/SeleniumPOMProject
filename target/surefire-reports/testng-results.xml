@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-14T12:28:29Z" name="AutomationPractice Site Test suite" finished-at="2021-02-14T12:29:57Z" duration-ms="88625">
+    <groups>
+    </groups>
+    <test started-at="2021-02-14T12:28:29Z" name="AutomationPractice Automation tests" finished-at="2021-02-14T12:29:57Z" duration-ms="88625">
+      <class name="com.qa.automationPractice.tests.LoginPageTest">
+        <test-method signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.automationPractice.tests.LoginPageTest@1f59a598]" started-at="2021-02-14T12:29:13Z" name="verifyLoginPageTitleTest" finished-at="2021-02-14T12:29:13Z" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method signature="verifyLoginPageHeaderTest()[pri:2, instance:com.qa.automationPractice.tests.LoginPageTest@1f59a598]" started-at="2021-02-14T12:29:13Z" name="verifyLoginPageHeaderTest" finished-at="2021-02-14T12:29:13Z" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageHeaderTest -->
+        <test-method signature="verifyInvalidLogin(java.lang.String, java.lang.String)[pri:3, instance:com.qa.automationPractice.tests.LoginPageTest@1f59a598]" started-at="2021-02-14T12:29:13Z" name="verifyInvalidLogin" data-provider="invalidTestData" finished-at="2021-02-14T12:29:21Z" duration-ms="7890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method signature="verifyInvalidLogin(java.lang.String, java.lang.String)[pri:3, instance:com.qa.automationPractice.tests.LoginPageTest@1f59a598]" started-at="2021-02-14T12:29:21Z" name="verifyInvalidLogin" data-provider="invalidTestData" finished-at="2021-02-14T12:29:29Z" duration-ms="8091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method signature="verifyInvalidLogin(java.lang.String, java.lang.String)[pri:3, instance:com.qa.automationPractice.tests.LoginPageTest@1f59a598]" started-at="2021-02-14T12:29:29Z" name="verifyInvalidLogin" data-provider="invalidTestData" finished-at="2021-02-14T12:29:38Z" duration-ms="8509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method signature="verifyInvalidLogin(java.lang.String, java.lang.String)[pri:3, instance:com.qa.automationPractice.tests.LoginPageTest@1f59a598]" started-at="2021-02-14T12:29:38Z" name="verifyInvalidLogin" data-provider="invalidTestData" finished-at="2021-02-14T12:29:44Z" duration-ms="6513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1234@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jjiko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method signature="verifyLogin()[pri:4, instance:com.qa.automationPractice.tests.LoginPageTest@1f59a598]" started-at="2021-02-14T12:29:44Z" name="verifyLogin" finished-at="2021-02-14T12:29:55Z" duration-ms="11245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+      </class> <!-- com.qa.automationPractice.tests.LoginPageTest -->
+      <class name="com.qa.automationPractice.tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.automationPractice.tests.HomePageTest@7ee8290b]" started-at="2021-02-14T12:28:29Z" name="setUp" finished-at="2021-02-14T12:28:58Z" duration-ms="29280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.automationPractice.tests.LoginPageTest@1f59a598]" started-at="2021-02-14T12:28:58Z" name="setUp" finished-at="2021-02-14T12:29:12Z" duration-ms="14563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageTitle()[pri:1, instance:com.qa.automationPractice.tests.HomePageTest@7ee8290b]" started-at="2021-02-14T12:29:13Z" name="verifyHomePageTitle" finished-at="2021-02-14T12:29:13Z" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method signature="verifyHomePageHeader()[pri:2, instance:com.qa.automationPractice.tests.HomePageTest@7ee8290b]" started-at="2021-02-14T12:29:13Z" name="verifyHomePageHeader" finished-at="2021-02-14T12:29:13Z" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageHeader -->
+        <test-method signature="verifyUserLoggedin()[pri:3, instance:com.qa.automationPractice.tests.HomePageTest@7ee8290b]" started-at="2021-02-14T12:29:13Z" name="verifyUserLoggedin" finished-at="2021-02-14T12:29:13Z" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserLoggedin -->
+        <test-method is-config="true" signature="testDown()[pri:0, instance:com.qa.automationPractice.tests.HomePageTest@7ee8290b]" started-at="2021-02-14T12:29:55Z" name="testDown" finished-at="2021-02-14T12:29:56Z" duration-ms="992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDown -->
+        <test-method is-config="true" signature="testDown()[pri:0, instance:com.qa.automationPractice.tests.LoginPageTest@1f59a598]" started-at="2021-02-14T12:29:56Z" name="testDown" finished-at="2021-02-14T12:29:57Z" duration-ms="1012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDown -->
+      </class> <!-- com.qa.automationPractice.tests.HomePageTest -->
+    </test> <!-- AutomationPractice Automation tests -->
+  </suite> <!-- AutomationPractice Site Test suite -->
+</testng-results>

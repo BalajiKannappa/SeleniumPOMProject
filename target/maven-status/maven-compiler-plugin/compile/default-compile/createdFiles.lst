@@ -1,0 +1,7 @@
+com\qa\automationPractice\utils\JavaScriptUtil.class
+com\qa\automationPractice\base\BasePage.class
+com\qa\automationPractice\utils\ExcelUtils.class
+com\qa\automationPractice\utils\AppConstants.class
+com\qa\automationPractice\pages\LoginPage.class
+com\qa\automationPractice\pages\HomePage.class
+com\qa\automationPractice\utils\ElementActions.class
